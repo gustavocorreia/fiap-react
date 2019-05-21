@@ -3,7 +3,15 @@
     padding: 10px 0;
 }
 
+@media screen and (max-width: 600px){
+    .header{
+        background-color: #fff159;
+        padding: 7px 70px;
+    }
+}
+
 .header__logo{
     height: 34px;
     width: 134px;
 }
+
