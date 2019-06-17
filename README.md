@@ -2,8 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+First, you need to run:
 
+### `git clone https://github.com/gustavocorreia/fiap-react`
+
+In the project directory, you can run two commands:
+
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.<br>
