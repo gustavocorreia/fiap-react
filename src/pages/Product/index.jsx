@@ -54,15 +54,23 @@ class Product extends Component {
 
                     <div className="mdl-grid">
                         <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-                            <img src={ data.pictures[0].url } className="img-product" />
+                            <img src={ data.thumbnail } className="img-product" />
                         </div>
 
                         <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                            <p>{ data.id }</p>
                             <h1>{ data.title }</h1>
+
+                            <h3> { new Intl.NumberFormat('pt-BR', { 
+                                                style: 'currency', 
+                                                currency: 'BRL' 
+                                    }).format(data.price) }</h3>
 
                             <button type="button" className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
                                 Comprar
                             </button>
+
+                            <h5>{ data.seller_address.city.name } - { data.seller_address.state.name }</h5>
                         </div>
                     </div>
 

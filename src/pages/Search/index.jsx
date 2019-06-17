@@ -29,11 +29,14 @@ class Search extends Component {
 
     renderItem(item){
         return (
-            <li key={ item.id }>
-                <span>{ item.id }</span>
-                <span>{ item.title }</span>
-                <Link to={ `/product/${item.id}` }> Abrir produto </Link>
-            </li>
+            <tr key={ item.id }>
+                <td>{ item.id }</td>
+                <td>{ item.title }</td>
+                <td>
+                    <Link to={ `/product/${item.id}` }> Abrir produto </Link>
+                </td>
+                
+            </tr>
         )
     }
 
@@ -42,9 +45,10 @@ class Search extends Component {
             <div>
                 <input type="text" onChange={ this.onSearch } />
 
-                <ul>
+                <table>
                     { this.state.results.map(this.renderItem) }
-                </ul>
+                </table>
+
             </div>
         );
     }
