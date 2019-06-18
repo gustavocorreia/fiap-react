@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fiap-react/static/css/main.21e7a4fa.chunk.css",
-    "main.js": "/fiap-react/static/js/main.3171dc10.chunk.js",
-    "main.js.map": "/fiap-react/static/js/main.3171dc10.chunk.js.map",
+    "main.js": "/fiap-react/static/js/main.4cf9c9d1.chunk.js",
+    "main.js.map": "/fiap-react/static/js/main.4cf9c9d1.chunk.js.map",
     "runtime~main.js": "/fiap-react/static/js/runtime~main.4f4220b6.js",
     "runtime~main.js.map": "/fiap-react/static/js/runtime~main.4f4220b6.js.map",
     "static/js/2.b36a1a29.chunk.js": "/fiap-react/static/js/2.b36a1a29.chunk.js",
     "static/js/2.b36a1a29.chunk.js.map": "/fiap-react/static/js/2.b36a1a29.chunk.js.map",
     "index.html": "/fiap-react/index.html",
-    "precache-manifest.c8a090a6926c9aef2483fc25f53d5bcb.js": "/fiap-react/precache-manifest.c8a090a6926c9aef2483fc25f53d5bcb.js",
+    "precache-manifest.9c1162cda8704269d2091f941344d644.js": "/fiap-react/precache-manifest.9c1162cda8704269d2091f941344d644.js",
     "service-worker.js": "/fiap-react/service-worker.js",
     "static/css/main.21e7a4fa.chunk.css.map": "/fiap-react/static/css/main.21e7a4fa.chunk.css.map"
   }
